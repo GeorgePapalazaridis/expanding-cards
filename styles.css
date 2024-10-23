@@ -36,9 +36,19 @@ body {
 
 .panel h3 {
   font-size: 24px;
-  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+.panel p {
+  font-size: 18px;
   bottom: 20px;
   left: 20px;
+}
+
+.panel h3,
+.panel p {
+  position: absolute;
   margin: 0;
   opacity: 0;
 }
@@ -47,8 +57,10 @@ body {
   flex: 5;
 }
 
-.panel.active h3 {
+.panel.active h3,
+.panel.active p {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {
