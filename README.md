@@ -19,7 +19,7 @@ Expanding Cards is a simple yet elegant HTML/CSS/JavaScript project that demonst
 
 Each panel expands when clicked, using JavaScript to dynamically add or remove the `active` class. CSS handles smooth transitions for the expansion and text appearance.
 
-![Demo GIF](link-to-your-demo.gif)
+ToDo: (link-or-print-screens-to-the-demo)
 
 ## How to Run Locally
 
